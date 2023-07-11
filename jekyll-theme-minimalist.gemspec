@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |s|
-  s.name          = "jekyll-theme-minimalist"
+  s.name          = "shane-minimalist"
   s.version       = "0.1.0"
   s.license       = "CC0-1.0"
-  s.authors       = ["Bodun Hu", "Steve Smith", "GitHub, Inc."]
+  s.authors       = ["Shane Curcuru", "Bodun Hu", "Steve Smith", "GitHub, Inc."]
   s.email         = [""]
-  s.homepage      = "https://github.com/BDHU/minimalist"
-  s.summary       = "Minimalist is a Jekyll theme inspired by Minimal"
+  s.homepage      = "https://github.com/ShaneCurcuru/minimalist-theme"
+  s.summary       = "Shane Minimalist is a Jekyll theme inspired by Minmalist and Minimal"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
